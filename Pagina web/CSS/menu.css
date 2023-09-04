@@ -1,0 +1,84 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    background-color: #73AB84;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav ul{
+    background-color: #4A7856;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-flex;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px;
+  }
+
+  nav li:hover{
+    background-color: antiquewhite;
+
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+    object-fit: cover;
+  }
+
+  .contenido{
+    display: flex;
+    margin: 50px;
+  }
+
+  .articulos{
+    width: 80%;
+    border-right: 3px solid #465C69;
+  }
+
+  .secciones{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 40px; 
+  }
+
+
+  .menu{
+    width: 20%;
+    margin-top: 60px;
+  }
+
+.menu a{
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+  h3 p{
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  h4 p{
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  h5 p{
+    font-family: 'Abril Fatface', cursive;
+  }
